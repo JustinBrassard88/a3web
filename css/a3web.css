@@ -1,1 +1,26 @@
+/*our CSS*/
 
+/* Navigation Bar*/ 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #191970;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #F0FFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link colour on hover */
+li a:hover {
+  background-color: #ADD8E6;
+}
