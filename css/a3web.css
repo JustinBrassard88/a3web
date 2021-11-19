@@ -33,3 +33,7 @@ Background_colour {
   padding: 14px 16px;
   text-decoration: none;
 }
+body {
+  background: rgba(0, 50, 120, 0.1);
+  font-family: Verdana;
+}
