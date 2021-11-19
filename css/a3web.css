@@ -6,34 +6,45 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #191970;
 }
+
+
 li {
   float: left;
 }
 
+
 li a {
   display: block;
-  color: #F0FFFF;
+  color: #0d0e0e;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
+
 
 /* Change the link colour on hover */
 li a:hover {
-  background-color: #ADD8E6;
+  background-color: #fff8dc;
+}
+
+body {
+  background: #fff8dc;
+  font-family: Verdana;
+}
+
+footer {
+  background: rgb(43, 133, 98);
+  font-family: Verdana;
+  color: #ffffff;
+  text-align: center;
 }
 
 
-Background_colour {
+#Contact_Us_Information {
   display: block;
-  color: #F0FFFF;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-body {
-  background: rgba(0, 50, 120, 0.1);
-  font-family: Verdana;
 }
