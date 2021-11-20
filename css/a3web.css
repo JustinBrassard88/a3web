@@ -6,10 +6,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-<<<<<<< HEAD
   background-color: #8FBC8F;
-=======
->>>>>>> d7c85be3e23ac98e94611f85de3ddbc4c58071bc
 }
 
 
@@ -20,11 +17,8 @@ li {
 
 li a {
   display: block;
-<<<<<<< HEAD
   color: #0ba813;
-=======
   color: #0d0e0e;
->>>>>>> d7c85be3e23ac98e94611f85de3ddbc4c58071bc
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -33,11 +27,8 @@ li a {
 
 /* Change the link colour on hover */
 li a:hover {
-<<<<<<< HEAD
   background-color: #9b1616;
-=======
   background-color: #fff8dc;
->>>>>>> d7c85be3e23ac98e94611f85de3ddbc4c58071bc
 }
 
 body {
