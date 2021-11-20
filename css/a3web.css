@@ -6,7 +6,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #191970;
+  background-color: #8FBC8F;
 }
 li {
   float: left;
@@ -14,7 +14,7 @@ li {
 
 li a {
   display: block;
-  color: #F0FFFF;
+  color: #0ba813;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -22,5 +22,5 @@ li a {
 
 /* Change the link colour on hover */
 li a:hover {
-  background-color: #ADD8E6;
+  background-color: #9b1616;
 }
