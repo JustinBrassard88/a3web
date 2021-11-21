@@ -4,7 +4,7 @@
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 25px;
   overflow: hidden;
   background-color: #8FBC8F;
 }
@@ -19,9 +19,11 @@ li {
 li a {
   display: block;
   color: #0ba813;
-  color: #0d0e0e;
+  color: white;
   text-align: center;
   padding: 14px 16px;
+  font-family: 'Comic Sans MS', cursive, sans-serif ;
+  font-size: 19px;
   text-decoration: none;
 }
 
@@ -53,10 +55,10 @@ footer {
   text-decoration: none;
 }
 
-#logo{ 
+.logo{ 
   position:fixed; 
-  top:0; 
-  left:0; 
+  top: 11px;
+  left:35px; 
   } 
 
   .website_title {
