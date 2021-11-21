@@ -70,4 +70,10 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 50px;
+  }
+
+  .responsive {
+    width: 100%;
+    height: auto;
   }
