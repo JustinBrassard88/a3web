@@ -12,6 +12,7 @@ ul {
 
 li {
   float: right;
+  text-align: right;
 }
 
 
@@ -57,3 +58,16 @@ footer {
   top:0; 
   left:0; 
   } 
+
+  .website_title {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+    
+  .Centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
