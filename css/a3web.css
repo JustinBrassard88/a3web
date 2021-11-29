@@ -91,7 +91,8 @@ footer {
   .Statement {
     font-size: 25px;
     color: darkgreen;
+    text-align: center;
     padding: 12px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 
   }
