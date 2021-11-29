@@ -80,3 +80,9 @@ footer {
     width: 100%;
     height: auto;
   }
+
+  .Quote {
+    font-size: 25px;
+    color: darkgreen;
+    border: slateblue;
+  }
