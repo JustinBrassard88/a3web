@@ -84,5 +84,12 @@ footer {
   .Quote {
     font-size: 25px;
     color: darkgreen;
-    border: slateblue;
+    padding: 12px;
+  }
+
+  .statement {
+    font-size: 25px;
+    color: darkgreen;
+    padding: 12px;
+
   }
