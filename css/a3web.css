@@ -99,4 +99,17 @@ footer {
 .Teamphoto {
 
   position: center;
-} 
+}
+
+.Teamhead{
+  font-size: 25px;
+  color: darkgreen;
+  padding: 12px;
+
+}
+
+.description{
+  font-size: 20px;
+  color: rgb(3, 131, 3);
+  padding: 10px;
+}
