@@ -118,3 +118,12 @@ footer {
   color: rgb(3, 131, 3);
   padding: 10px;
 }
+
+.row {
+  display:flex;
+
+}
+.column {
+  flex: 50%;
+  padding: 20px;
+}
