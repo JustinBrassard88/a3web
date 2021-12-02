@@ -95,7 +95,9 @@ footer {
     padding-left: 60px;
 
   }
-
+img {
+  border-radius: 50%;
+}
 .Teamphoto {
 
   position: center;
@@ -105,6 +107,7 @@ footer {
   font-size: 25px;
   color: darkgreen;
   padding: 12px;
+  text-align: center;
 
 }
 
