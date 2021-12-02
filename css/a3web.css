@@ -125,5 +125,5 @@ footer {
 .column {
   flex: 50%;
   padding: 100px;
-  padding-bottom: 0px;
+  padding-bottom: 25px;
 }
