@@ -269,3 +269,14 @@ font-family: Verdana;
   text-align: center;
   padding-bottom: 20px;
 }
+
+.FAQtext {
+  text-indent: 90px;
+  color: rgb(3, 131, 3);
+  font-size: 20px
+}
+
+.answers {
+  text-indent: 150px;
+  font-size: 18px;
+}
