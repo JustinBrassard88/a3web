@@ -147,7 +147,7 @@ footer {
 
 h2{
   font-size: 25px;
-  color: darkgreen;
+  color: black;
   padding: 12px;
   text-align: center;
 }
@@ -171,8 +171,10 @@ p{
 
 button {
   background-color: rgb(3, 131, 3);
+  border-color:lightslategray;
   font-size: 15px;
   color: #ffffff;
+  border-radius: 8px;
 }
 
 .Button_Text {
