@@ -159,10 +159,23 @@ p{
 }
 
 .Images_Gen {
-  border-radius: 4px;
-  align-items: center;
-  padding: 10px;
+  border: 5px solid rgb(3, 131, 3);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   max-width: 100%;
   height: auto;
+  display: none;
   
+}
+
+button {
+  background-color: rgb(3, 131, 3);
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.Button_Text {
+  text-align: center;
+  padding-bottom: 20px;
 }
