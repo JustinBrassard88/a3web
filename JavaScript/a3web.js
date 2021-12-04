@@ -17,3 +17,15 @@ function myFunction() {
       }
     }
   }
+
+  /* This code essentially grabs the a element hamburger menu and checks to see if its
+  at a particular width, if so it will collapse the navar nad sent the elements into
+  itself */
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
