@@ -157,3 +157,12 @@ p{
   color: rgb(3, 131, 3);
   padding-right: 10px;
 }
+
+.Images_Gen {
+  border-radius: 4px;
+  align-items: center;
+  padding: 10px;
+  max-width: 100%;
+  height: auto;
+  
+}
