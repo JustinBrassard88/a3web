@@ -110,6 +110,7 @@ footer {
     position: relative;
     text-align: center;
     color: white;
+    max-width: 100%
   }
     
   .Centered {
@@ -150,18 +151,21 @@ footer {
 
 
 .Teamhead{
-  font-size: 25px;
+  /*font-size: 25px;
   color: darkgreen;
   padding: 12px;
   text-align: center;
+  padding-top: 150px;*/
+  float: left;
+  padding-left: 40%;
+  text-align: center;
   padding-top: 150px;
-
 }
 
 .description{
   font-size: 20px;
   color: rgb(3, 131, 3);
-  padding: 10px;
+  padding-right: 10px;
 }
 
 .row {
