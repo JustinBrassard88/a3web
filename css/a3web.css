@@ -27,11 +27,21 @@ li a {
   text-decoration: none;
 }
 
-
 /* Change the link colour on hover */
 li a:hover {
   background-color: #9b1616;
   background-color: #fff8dc;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar li a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
 }
 
 body {
