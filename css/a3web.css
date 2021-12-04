@@ -181,3 +181,18 @@ button {
   text-align: center;
   padding-bottom: 20px;
 }
+
+.columnPlans {
+  flex: 50%;
+  padding: 100px;
+  padding-bottom: 0px;
+  padding-top: 50px;
+
+}
+.mapplans {
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  text-align: center;
+}
