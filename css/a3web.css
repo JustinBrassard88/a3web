@@ -27,16 +27,24 @@ li a {
   text-decoration: none;
 }
 
-
 /* Change the link colour on hover */
 li a:hover {
   background-color: #9b1616;
   background-color: #fff8dc;
 }
 
+@media screen and (max-width: 1340px) {
+  li, a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 body {
   background: #fff8dc;
   font-family: Verdana;
+  width: 100%;
 }
 
 footer {
@@ -110,6 +118,7 @@ footer {
     position: relative;
     text-align: center;
     color: white;
+    max-width: 100%
   }
     
   .Centered {
@@ -145,8 +154,9 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
+  min-width: 50%;
 }
-
 
 .Teamhead{
   font-size: 25px;
@@ -154,13 +164,12 @@ footer {
   padding: 12px;
   text-align: center;
   padding-top: 150px;
-
 }
 
 .description{
   font-size: 20px;
   color: rgb(3, 131, 3);
-  padding: 10px;
+  padding-right: 10px;
 }
 
 .row {
