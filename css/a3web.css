@@ -69,50 +69,13 @@ footer {
   text-align: center;
 }
 
-/* Dropdown Button */
-.dropbtn {
-  background-color: #3498DB;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
+.Footer_Text {
+  background: rgb(43, 133, 98);
+  font-family: Verdana;
+  font-size: 15px;
+  color: #ffffff;
+  text-align: center;
 }
-
-/* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd}
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
 
 
 #Contact_Us_Information {
@@ -195,4 +158,84 @@ footer {
   flex: 50%;
   padding: 100px;
   padding-bottom: 25px;
+}
+
+h2{
+  font-size: 25px;
+  color: black;
+  padding: 12px;
+  text-align: center;
+}
+
+p{
+  font-size: 20px;
+  color: rgb(3, 131, 3);
+  padding-right: 10px;
+}
+
+.Images_Gen {
+  border: 5px solid rgb(3, 131, 3);
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+  height: auto;
+  display: none;
+  
+}
+
+button {
+  background-color: rgb(3, 131, 3);
+  border-color:lightslategray;
+  font-size: 15px;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.Button_Text {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.columnPlans {
+  flex: 50%;
+  padding: 100px;
+  padding-bottom: 0px;
+  padding-top: 50px;
+
+}
+.mapbasicplan {
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  text-align: center;
+  box-shadow: 5px 10px #888888;
+}
+
+.dataplan
+{
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  text-align: center;
+}
+
+.mapplan
+{
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  text-align: center;
+}
+
+.remoteplan
+{
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  text-align: center;
 }

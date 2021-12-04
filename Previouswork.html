@@ -15,6 +15,7 @@
 <link rel="icon" href="Images/LOGO06.png">
 <!-- Mobile device compatibility -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="JavaScript/a3web.js"></script>
 
  </head>
 
@@ -38,12 +39,53 @@
 
 <!-- Header Page Title -->
 <div class ="website_title">
-    <img src="Images/DEM-IMAGE.jpeg" alt="DEM" Class="responsive" />
+    <img src="Images/Previous_Work_HeadingImage.jpg" alt="DEM" Class="responsive" />
 <div class ="Centered"> Previous Work</div>
         </div>
- 
-<p> This will be where our body text and other components for the pages will be located</p>
 
+<h2> Population Density of Trenton, Ontario </h2>
+<p> This map shows an example of a Population Density Map created for the area of Trenton, Ontario. Trenton is an area located North West of the City of Toronto. 
+    It is part of the Municipality of Quinte West and has a population of approximately 22,000. Within this work, the population density is shown with a purple colour ramp.
+    The more densly populated regions have a darker purple assigned to them. The colours proceed to be lighter as there is less population present in these areas. </p>
+<div class="Button_Text">
+    <button onclick="imageOn('trenton','Images/Trent.png')">View Map</button>
+    <button onclick="imageOff('trenton')">Close Map</button>
+        </div> 
+    <img Class="Images_Gen" id="trenton"/>
+    
+<h2> Topographic Generalized map of Okanagan, British Columbia </h2>
+<p> This map is a Topographic map of Okanagan, British Columbia. In this work, the areas built up areas, contours, forested areas and water systems are shown to depict 
+    a generalized map. This work follows a traditional colour scheme in order to show elements within the map. Green will typiclalyrepresent the forested areas, brown shows the contours,
+    the lighter pink shows the built up areas, and blue represents the water bodies. A good generelization of what the area contains can therefore be seen within the map frame. </p>
+   
+<div class="Button_Text">
+    <button onclick="imageOn('generalized','Images/JKTF4.PNG')">View Map</button>
+    <button onclick="imageOff('generalized')">Close Map</button>
+        </div> 
+    <img Class="Images_Gen" id="generalized" />
+
+
+<h2> Heat Map of Pedestrian Collisions rates in Toronto, Ontario </h2>
+<p> This map shows a Heat map that was created to analyze the amount of pedestrians involved in car crashes near school areas in the years 2011-2018 for Toronto, Ontario. The 
+    areas shown in a red and yellow colour signify areas with high collision rates. After further analysis, it was determined that as more speed signs were added near school areas, the number of collisions
+    was generally reduced significantly. </p>
+
+<div class="Button_Text">
+    <button onclick="imageOn('heatmap','Images/Image - HEATMAP.png')">View Map</button>
+    <button onclick="imageOff('heatmap')">Close Map</button>
+        </div>
+    <img Class="Images_Gen" id="heatmap" />
+
+
+<h2> False Colour Composite (NDVI) Lindsay, Ontario</h2>
+<p> This map is a False Colour Composite that was created to analyze the Normalized Difference Vegetation Index (NDVI) in further depth for an area near Lindsay Ontario. The areas that have a 
+    darker red colour shown in the map have higher rates of vegetation (Higher Reflectance) whereas the areas with lighter red colours have more sparse vegetation patterns (Less Reflectance).  </p>
+
+<div class="Button_Text">
+    <button onclick="imageOn('falseCC','Images/FalseColourComposite_AbbyLeavens.png')">View Map</button>
+    <button onclick="imageOff('falseCC')">Close Map</button>
+        </div>
+    <img Class="Images_Gen" id='falseCC' />
 </body>
 
 
@@ -53,10 +95,11 @@
     <div class ="Footer_Title_Design">
         <h3> Contact Us</h3>
             </div>
-            
-<p> The Collective Solution</p>
-<p> info@TheCollectiveSolution.com</p>
-<p> 613-961-3517</p>
+
+  <p class = "Footer_Text"> The Collective Solution</p>
+  <p class = "Footer_Text"> info@TheCollectiveSolution.com</p>
+  <p class = "Footer_Text"> 613-961-3517</p>
+    
              
 
 </footer>
