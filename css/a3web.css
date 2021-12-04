@@ -256,6 +256,7 @@ font-family: Verdana;
   padding-bottom: 20px;
 }
 
+<<<<<<< HEAD
 .ourteam{
   font-size: 25px;
   color:rgb(3, 131, 3);
@@ -290,3 +291,15 @@ font-family: Verdana;
   a:active.links {
     color: darkgreen;
   }
+=======
+.FAQtext {
+  text-indent: 90px;
+  color: rgb(3, 131, 3);
+  font-size: 20px
+}
+
+.answers {
+  text-indent: 150px;
+  font-size: 18px;
+}
+>>>>>>> 215a13a21522fb73c7f128f891fab84590d6b0ed
