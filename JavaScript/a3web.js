@@ -1,7 +1,7 @@
 
-function imageOn(id){
+function imageOn(id,img){
   
-  document.getElementById(id).src='Images/Trent.png'
+  document.getElementById(id).src= img
   document.getElementById(id).style.display = 'inline';
 
 }
