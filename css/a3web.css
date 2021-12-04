@@ -189,7 +189,35 @@ button {
   padding-top: 50px;
 
 }
-.mapplans {
+.mapbasicplan {
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  text-align: center;
+  box-shadow: 3px 4px #888888;
+}
+
+.dataplan
+{
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  text-align: center;
+}
+
+.mapplan
+{
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  text-align: center;
+}
+
+.remoteplan
+{
   padding: 20px;
   border-style: solid;
   border-color: black;
