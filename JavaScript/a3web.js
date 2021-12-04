@@ -11,3 +11,30 @@ function imageOff(id){
   document.getElementById(id).style.display = 'none';
 
 }
+<<<<<<< HEAD
+=======
+
+function priceOn(){
+  
+  document.getElementById('price1').innerHTML="$999.99";
+
+}
+
+function priceOn2(){
+  
+  document.getElementById('price2').innerHTML="$499.99";
+
+}
+
+function priceOn3(){
+  
+  document.getElementById('price3').innerHTML="$1,399.99";
+
+}
+
+function priceOn4(){
+  
+  document.getElementById('price4').innerHTML="$699.99";
+
+}
+>>>>>>> 63944cbe8820db87727f9680ebdac27cf3e74608

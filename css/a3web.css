@@ -185,7 +185,7 @@ button {
 
 .columnPlans {
   flex: 50%;
-  padding: 100px;
+  padding: 3%;
   padding-bottom: 0px;
   padding-top: 50px;
 
@@ -196,7 +196,7 @@ button {
   border-color: black;
   background-color: ivory;
   text-align: center;
-  box-shadow: 5px 10px #888888;
+  box-shadow: 5px 6px #888888;
 }
 
 .dataplan
@@ -206,6 +206,7 @@ button {
   border-color: black;
   background-color: ivory;
   text-align: center;
+  box-shadow: 5px 6px #888888;
 }
 
 .mapplan
@@ -215,6 +216,7 @@ button {
   border-color: black;
   background-color: ivory;
   text-align: center;
+  box-shadow: 5px 6px #888888;
 }
 
 .remoteplan
@@ -224,4 +226,32 @@ button {
   border-color: black;
   background-color: ivory;
   text-align: center;
+  box-shadow: 5px 6px #888888;
+  padding-bottom:10.5%;
+}
+
+.planstext{
+color: black;
+font-size: 18px;
+
+}
+
+.plansheading {
+color: rgb(3, 131, 3);
+font-size: 24px;
+font-family: Verdana;
+}
+
+
+.buttonformplan {
+  background-color: rgb(3, 131, 3);
+  border-color:black;
+  font-size: 15px;
+  color: white;
+  border-radius: 8px;
+}
+
+.buttonplans {
+  text-align: center;
+  padding-bottom: 20px;
 }
