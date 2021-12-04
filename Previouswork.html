@@ -15,6 +15,7 @@
 <link rel="icon" href="Images/LOGO06.png">
 <!-- Mobile device compatibility -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="JavaScript/a3web.js"></script>
 
  </head>
 
@@ -47,9 +48,14 @@
 
 
 
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
-<img src="Images/Trent.png" alt="Trenton Population Density" Class="responsive" />
+
+
+<button onclick="picture()">Enlarge</button>
+<img Class="responsive" id="trenton" onclick="hide_image('trenton');" />
+
+
 <p> This will be where our body text and other components for the pages will be located</p>
+<button onclick="document.getElementById('trenton').src='Images/Trent.png'">Turn on the light</button>
 
 <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
 <img src="Images/JKTF4.PNG" alt="Okanagan" Class="responsive" />
