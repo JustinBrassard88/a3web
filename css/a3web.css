@@ -128,16 +128,18 @@ footer {
 
 .Teamhead{
   font-size: 25px;
-  color: darkgreen;
+  color: black;
   padding: 12px;
   text-align: center;
   padding-top: 150px;
+  font-weight: bold;
 }
 
 .description{
   font-size: 20px;
   color: rgb(3, 131, 3);
   padding-right: 10px;
+  text-align: center;
 }
 
 .row {
@@ -314,7 +316,7 @@ font-family: Verdana;
   font-size: 23px;
   padding-top: 25px;
   padding-bottom: 25px;
-  font-style: bold;
+  font-weight: bold;
 
 }
 
