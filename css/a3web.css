@@ -271,9 +271,10 @@ font-family: Verdana;
 
 }
 
-  /* unvisited link */
+  /* unvisited link design help from w3schools */
   a:link.links {
     color: green;
+
   }
   
   /* visited link */
@@ -281,12 +282,12 @@ font-family: Verdana;
     color: sienna;
   }
   
-  /* mouse over link */
+  /* hovering over the link with mouse*/
   a:hover.links {
     color: lightgreen;
   }
   
-  /* selected link */
+  /* the link that you selected*/
   a:active.links {
     color: darkgreen;
   }
@@ -301,7 +302,32 @@ font-family: Verdana;
   text-indent: 150px;
   font-size: 18px;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> ba80ad23da413d7907fa3099488578db9fde0c63
+.contactinfo {   
+  text-indent: 90px;
+  color: rgb(0, 94, 0);
+  font-size: 23px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+}
+
+.email {
+
+    text-indent: 150px;
+    font-size: 20px;
+    color: green;
+    
+}
+
+.linkedin {
+  text-indent: 150px;
+  font-size: 20;
+  padding-bottom: 10px;
+}
+
+.starter {
+  text-align: center;
+  font-size: 26px;
+  
+}
