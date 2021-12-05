@@ -97,7 +97,6 @@ footer {
     transform: translate(-50%, -50%);
     font-size: 50px;
   }
-
   .responsive {
     width: 100%;
     height: auto;
@@ -311,10 +310,11 @@ font-family: Verdana;
 
 .contactinfo {   
   text-indent: 90px;
-  color: rgb(0, 94, 0);
+  color: darkgreen;
   font-size: 23px;
   padding-top: 25px;
   padding-bottom: 25px;
+  font-style: bold;
 
 }
 
@@ -328,13 +328,13 @@ font-family: Verdana;
 /* linked in links formatted*/
 .linkedin {
   text-indent: 150px;
-  font-size: 20;
+  font-size: 18px;
   padding-bottom: 10px;
 }
 /* starter paragraph on contact us page */
 .starter {
   text-align: center;
-  font-size: 26px;
+  font-size: 35px;
   padding: 15px;
 
 }
