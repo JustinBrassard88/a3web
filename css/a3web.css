@@ -304,7 +304,6 @@ font-family: Verdana;
   }
 
 .FAQtext {
-  text-indent: 90px;
   color: rgb(3, 131, 3);
   font-size: 20px;
 }
@@ -351,10 +350,9 @@ font-family: Verdana;
   border-radius:0px;
   border:none;
   background-color:ivory;
-  color:rgb(3, 131, 3);
+  color:black;
   text-align: left;
   font-size: 23px;
-  text-indent: 50px;
   font-weight: bold;
 }
 .Questions {
@@ -370,6 +368,8 @@ font-family: Verdana;
 /* makes default display no the answers be none so it will only appear on click */
 .nodisplay {
   display:none
+  
 }
+
 
 
