@@ -34,7 +34,7 @@ li a:hover {
 .navbar .hamburger {
   display: none;
 }
-
+/* Changing nav bar to horizontal at a smaller screen size*/
 @media screen and (max-width: 1340px) {
   .navbar li {
     text-align: center;
@@ -42,11 +42,15 @@ li a:hover {
   }
 }
 
+/* background colour with a soft feel */
 body {
   background: #fff8dc;
   font-family: Verdana;
   width: 100%;
 }
+
+
+/* Darker footer background to stand out from the background*/
 
 footer {
   background: rgb(43, 133, 98);
@@ -63,7 +67,7 @@ footer {
   text-align: center;
 }
 
-
+/* Contact us information in the footer on everypage*/
 #Contact_Us_Information {
   display: block;
   color: #ffffff;
@@ -71,6 +75,7 @@ footer {
   padding: 14px 16px;
   text-decoration: none;
 }
+/* Logo created by us, positioned at the top of every page */
 
 .logo{ 
   position:absolute;
@@ -84,7 +89,7 @@ footer {
     color: white;
     max-width: 100%
   }
-    
+  /* all page title text added to the center of image */ 
   .Centered {
     position: absolute;
     top: 50%;
