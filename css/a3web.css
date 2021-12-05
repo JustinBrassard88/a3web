@@ -113,6 +113,11 @@ footer {
     padding-left: 60px;
 
   }
+.homeimage{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 #MeetTeam {
   border-radius: 50%;
   display: block;
@@ -358,8 +363,6 @@ font-family: Verdana;
   border:black;
   border-style: solid;
 }
-
-
 .nodisplay{
   display:none
 }
