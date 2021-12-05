@@ -125,6 +125,8 @@ footer {
   margin-right: auto;
   max-width: 100%;
   min-width: 50%;
+  border:solid;
+  border-color: black;
 }
 
 @media screen and (max-width: 600px) {
@@ -138,16 +140,18 @@ footer {
 
 .Teamhead{
   font-size: 25px;
-  color: darkgreen;
+  color: black;
   padding: 12px;
   text-align: center;
   padding-top: 150px;
+  font-weight: bold;
 }
 
 .description{
   font-size: 20px;
   color: rgb(3, 131, 3);
   padding-right: 10px;
+  text-align: center;
 }
 
 .row {
