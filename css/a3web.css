@@ -113,6 +113,11 @@ footer {
     padding-left: 60px;
 
   }
+.homeimage{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 #MeetTeam {
   border-radius: 50%;
   display: block;
@@ -263,8 +268,6 @@ font-family: Verdana;
 .buttonplans {
   text-align: center;
   padding-bottom: 20px;
-<<<<<<< HEAD
-=======
 }
 
 .ourteam{
@@ -359,5 +362,4 @@ font-family: Verdana;
   background-color:ivory;
   border:black;
   border-style: solid;
->>>>>>> 45787ad871386660823893eba4128392ff7751f0
 }
