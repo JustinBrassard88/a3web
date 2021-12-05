@@ -263,8 +263,6 @@ font-family: Verdana;
 .buttonplans {
   text-align: center;
   padding-bottom: 20px;
-<<<<<<< HEAD
-=======
 }
 
 .ourteam{
@@ -359,32 +357,9 @@ font-family: Verdana;
   background-color:ivory;
   border:black;
   border-style: solid;
-<<<<<<< HEAD
 }
 
-#CSanswer{
-  display: none;
-}
-#GISanswer{
-  display: none;
-}
 
-#teamanswer{
-  display: none;
-}
-
-#customanswer{
-  display: none;
-}
-
-#freeanswer{
-  display: none;
-}
-
-#turnanswer{
-  display: none;
-}
-
-#softanswer{
-  display: none;
+.nodisplay{
+  display:none
 }
