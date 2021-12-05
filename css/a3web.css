@@ -362,4 +362,35 @@ font-family: Verdana;
   background-color:ivory;
   border:black;
   border-style: solid;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+}
+
+#CSanswer{
+  display: none;
+}
+#GISanswer{
+  display: none;
+}
+
+#teamanswer{
+  display: none;
+}
+
+#customanswer{
+  display: none;
+}
+
+#freeanswer{
+  display: none;
+}
+
+#turnanswer{
+  display: none;
+}
+
+#softanswer{
+  display: none;
+>>>>>>> 39447803fc6fcce231b64acb69f2ae2af7bcf22f
 }

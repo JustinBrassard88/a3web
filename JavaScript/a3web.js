@@ -23,6 +23,6 @@ function priceOn3(){
 function priceOn4(){ 
   document.getElementById('price4').innerHTML="$699.99";
 }
-function answer(){ 
-  document.getElementById('CSanswer').innerHTML="We are a team of GIS Analysts that provide spatial data services for small business, non-profit and local government.poop";
+function answer(id){ 
+  document.getElementById(id).style.display = "block";
 }
