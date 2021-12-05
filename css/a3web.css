@@ -358,3 +358,30 @@ font-family: Verdana;
   border:black;
   border-style: solid;
 }
+
+#CSanswer{
+  display: none;
+}
+#GISanswer{
+  display: none;
+}
+
+#teamanswer{
+  display: none;
+}
+
+#customanswer{
+  display: none;
+}
+
+#freeanswer{
+  display: none;
+}
+
+#turnanswer{
+  display: none;
+}
+
+#softanswer{
+  display: none;
+}
