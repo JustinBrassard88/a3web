@@ -138,6 +138,7 @@ footer {
   }
 }
 
+
 .Teamhead{
   font-size: 25px;
   color: black;
@@ -344,11 +345,6 @@ font-family: Verdana;
 
 }
 
-.FAQtext{
-  text-align: left;
-  text-indent: 100px;
-
-}
 /* format for button on the FAQ page, includes the whole question */
 .buttonFAQ {
   width:100%;
@@ -357,7 +353,7 @@ font-family: Verdana;
   background-color:ivory;
   color:rgb(3, 131, 3);
   text-align: left;
-  font-size: 25px;
+  font-size: 23px;
   text-indent: 50px;
   font-weight: bold;
 }
@@ -366,6 +362,7 @@ font-family: Verdana;
   background-color:ivory;
   border:black;
   border-style: solid;
+ 
   
 }
 
@@ -374,3 +371,7 @@ font-family: Verdana;
   display:none
 }
 
+
+#teamanswer{
+  text-indent: 100px;
+}
