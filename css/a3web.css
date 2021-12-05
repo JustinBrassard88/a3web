@@ -256,7 +256,7 @@ font-size: 24px;
 font-family: Verdana;
 }
 
-
+/* button design for the plan page */
 .buttonformplan {
   background-color: rgb(3, 131, 3);
   border-color:black;
@@ -306,15 +306,11 @@ font-family: Verdana;
     color: darkgreen;
   }
 
+  /* default text for the FAQ page */
 .FAQtext {
   text-indent: 90px;
   color: rgb(3, 131, 3);
   font-size: 20px;
-}
-
-.answers {
-  text-indent: 150px;
-  font-size: 18px;
 }
 
 .contactinfo {   
@@ -344,6 +340,7 @@ font-family: Verdana;
 
 }
 
+/* format for button on the FAQ page, includes the whole question */
 .buttonFAQ {
   width:100%;
   border-radius:0px;
@@ -354,12 +351,14 @@ font-family: Verdana;
   font-size: 25px;
   text-indent: 50px;
 }
+/* formats the div that contains both the questions and answers FAQ page */
 .Questions {
   background-color:ivory;
   border:black;
   border-style: solid;
 }
-.nodisplay{
-  display:none
 
+/* makes default display no the answers be none so it will only appear on click */
+.nodisplay {
+  display:none
 }
