@@ -361,6 +361,7 @@ font-family: Verdana;
   background-color:ivory;
   border:black;
   border-style: solid;
+  border-width: 1px;
   padding: 10px;
  
   
@@ -372,6 +373,3 @@ font-family: Verdana;
 }
 
 
-#teamanswer{
-  text-indent: 100px;
-}
