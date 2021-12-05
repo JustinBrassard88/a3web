@@ -31,10 +31,6 @@ li a:hover {
   background-color: #fff8dc;
 }
 
-.navbar .hamburger {
-  display: none;
-}
-
 @media screen and (max-width: 1340px) {
   .navbar li {
     text-align: center;
@@ -113,11 +109,6 @@ footer {
     padding-left: 60px;
 
   }
-.homeimage{
-  text-align: center;
-  padding-bottom: 10px;
-}
-
 #MeetTeam {
   border-radius: 50%;
   display: block;
@@ -133,6 +124,7 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 50%;
   }
 }
 
@@ -256,7 +248,7 @@ font-size: 24px;
 font-family: Verdana;
 }
 
-/* button design for the plan page */
+
 .buttonformplan {
   background-color: rgb(3, 131, 3);
   border-color:black;
@@ -306,17 +298,25 @@ font-family: Verdana;
     color: darkgreen;
   }
 
-  /* default text for the FAQ page */
 .FAQtext {
   text-indent: 90px;
   color: rgb(3, 131, 3);
   font-size: 20px;
 }
 
+.answers {
+  text-indent: 150px;
+  font-size: 18px;
+}
+
 .contactinfo {   
   text-indent: 90px;
   color: darkgreen;
   font-size: 23px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+
 }
 
 .email {
@@ -340,7 +340,6 @@ font-family: Verdana;
 
 }
 
-/* format for button on the FAQ page, includes the whole question */
 .buttonFAQ {
   width:100%;
   border-radius:0px;
@@ -351,14 +350,8 @@ font-family: Verdana;
   font-size: 25px;
   text-indent: 50px;
 }
-/* formats the div that contains both the questions and answers FAQ page */
 .Questions {
   background-color:ivory;
   border:black;
   border-style: solid;
-}
-
-/* makes default display no the answers be none so it will only appear on click */
-.nodisplay {
-  display:none
 }
