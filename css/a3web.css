@@ -321,8 +321,7 @@ font-family: Verdana;
   text-indent: 90px;
   color: darkgreen;
   font-size: 23px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  
 
 
 }
@@ -365,4 +364,5 @@ font-family: Verdana;
 }
 .nodisplay{
   display:none
+
 }
