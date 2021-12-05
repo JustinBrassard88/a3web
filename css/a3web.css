@@ -124,6 +124,8 @@ footer {
   margin-right: auto;
   max-width: 100%;
   min-width: 50%;
+  border-style: solid;
+  border-color: black;
 }
 
 .Teamhead{
