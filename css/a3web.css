@@ -8,7 +8,7 @@
   overflow: hidden;
   background-color: #8FBC8F;
 }
-
+/* floating nav bar to right side of page*/
 li {
   float: right;
   text-align: right;
@@ -102,7 +102,7 @@ footer {
     width: 100%;
     height: auto;
   }
-
+/* font, size and colours chosen for a flow within website */
   .Quote {
     font-size: 25px;
     font-style: italic;
@@ -150,7 +150,7 @@ footer {
   padding: 100px;
   padding-bottom: 25px;
 }
-
+/* adding black headings to stand out */
 h2{
   font-size: 25px;
   color: black;
@@ -195,6 +195,7 @@ button {
   padding-top: 50px;
 
 }
+
 .mapbasicplan {
   padding: 20px;
   border-style: solid;
@@ -324,13 +325,13 @@ font-family: Verdana;
     color: green;
     
 }
-
+/* linked in links formatted*/
 .linkedin {
   text-indent: 150px;
   font-size: 20;
   padding-bottom: 10px;
 }
-
+/* starter paragraph on contact us page */
 .starter {
   text-align: center;
   font-size: 26px;
