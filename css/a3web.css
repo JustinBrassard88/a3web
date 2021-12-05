@@ -263,4 +263,101 @@ font-family: Verdana;
 .buttonplans {
   text-align: center;
   padding-bottom: 20px;
+<<<<<<< HEAD
+=======
+}
+
+.ourteam{
+  font-size: 25px;
+  color:rgb(3, 131, 3);
+  text-align: center;
+
+
+}
+.whatwedo{
+  font-size: 22px;
+  color: #2E8B57;
+  padding-bottom: 100px;
+  text-align: center;
+
+}
+
+  /* unvisited link design help from w3schools */
+  a:link.links {
+    color: green;
+
+  }
+  
+  /* visited link */
+  a:visited.links {
+    color: sienna;
+  }
+  
+  /* hovering over the link with mouse*/
+  a:hover.links {
+    color: lightgreen;
+  }
+  
+  /* the link that you selected*/
+  a:active.links {
+    color: darkgreen;
+  }
+
+.FAQtext {
+  text-indent: 90px;
+  color: rgb(3, 131, 3);
+  font-size: 20px;
+}
+
+.answers {
+  text-indent: 150px;
+  font-size: 18px;
+}
+
+.contactinfo {   
+  text-indent: 90px;
+  color: darkgreen;
+  font-size: 23px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+
+
+}
+
+.email {
+
+    text-indent: 150px;
+    font-size: 20px;
+    color: green;
+    
+}
+/* linked in links formatted*/
+.linkedin {
+  text-indent: 150px;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+/* starter paragraph on contact us page */
+.starter {
+  text-align: center;
+  font-size: 35px;
+  padding: 15px;
+
+}
+
+.buttonFAQ {
+  width:100%;
+  border-radius:0px;
+  border:none;
+  background-color:ivory;
+  color:rgb(3, 131, 3);
+  text-align: left;
+  font-size: 25px;
+  text-indent: 50px;
+}
+.Questions {
+  background-color:ivory;
+  border:black;
+  border-style: solid;
+>>>>>>> 45787ad871386660823893eba4128392ff7751f0
 }
