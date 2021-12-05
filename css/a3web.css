@@ -8,7 +8,7 @@
   overflow: hidden;
   background-color: #8FBC8F;
 }
-
+/* floating nav bar to right side of page*/
 li {
   float: right;
   text-align: right;
@@ -34,7 +34,7 @@ li a:hover {
 .navbar .hamburger {
   display: none;
 }
-
+/* Changing nav bar to horizontal at a smaller screen size*/
 @media screen and (max-width: 1340px) {
   .navbar li {
     text-align: center;
@@ -42,11 +42,15 @@ li a:hover {
   }
 }
 
+/* background colour with a soft feel */
 body {
   background: #fff8dc;
   font-family: Verdana;
   width: 100%;
 }
+
+
+/* Darker footer background to stand out from the background*/
 
 footer {
   background: rgb(43, 133, 98);
@@ -63,7 +67,7 @@ footer {
   text-align: center;
 }
 
-
+/* Contact us information in the footer on everypage*/
 #Contact_Us_Information {
   display: block;
   color: #ffffff;
@@ -71,6 +75,7 @@ footer {
   padding: 14px 16px;
   text-decoration: none;
 }
+/* Logo created by us, positioned at the top of every page */
 
 .logo{ 
   position:absolute;
@@ -84,7 +89,7 @@ footer {
     color: white;
     max-width: 100%
   }
-    
+  /* all page title text added to the center of image */ 
   .Centered {
     position: absolute;
     top: 50%;
@@ -92,12 +97,11 @@ footer {
     transform: translate(-50%, -50%);
     font-size: 50px;
   }
-
   .responsive {
     width: 100%;
     height: auto;
   }
-
+/* font, size and colours chosen for a flow within website */
   .Quote {
     font-size: 25px;
     font-style: italic;
@@ -124,16 +128,18 @@ footer {
 
 .Teamhead{
   font-size: 25px;
-  color: darkgreen;
+  color: black;
   padding: 12px;
   text-align: center;
   padding-top: 150px;
+  font-weight: bold;
 }
 
 .description{
   font-size: 20px;
   color: rgb(3, 131, 3);
   padding-right: 10px;
+  text-align: center;
 }
 
 .row {
@@ -145,7 +151,7 @@ footer {
   padding: 100px;
   padding-bottom: 25px;
 }
-
+/* adding black headings to stand out */
 h2{
   font-size: 25px;
   color: black;
@@ -190,6 +196,7 @@ button {
   padding-top: 50px;
 
 }
+
 .mapbasicplan {
   padding: 20px;
   border-style: solid;
@@ -271,9 +278,10 @@ font-family: Verdana;
 
 }
 
-  /* unvisited link */
+  /* unvisited link design help from w3schools */
   a:link.links {
     color: green;
+
   }
   
   /* visited link */
@@ -281,12 +289,12 @@ font-family: Verdana;
     color: sienna;
   }
   
-  /* mouse over link */
+  /* hovering over the link with mouse*/
   a:hover.links {
     color: lightgreen;
   }
   
-  /* selected link */
+  /* the link that you selected*/
   a:active.links {
     color: darkgreen;
   }
@@ -302,3 +310,33 @@ font-family: Verdana;
   font-size: 18px;
 }
 
+.contactinfo {   
+  text-indent: 90px;
+  color: darkgreen;
+  font-size: 23px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: bold;
+
+}
+
+.email {
+
+    text-indent: 150px;
+    font-size: 20px;
+    color: green;
+    
+}
+/* linked in links formatted*/
+.linkedin {
+  text-indent: 150px;
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+/* starter paragraph on contact us page */
+.starter {
+  text-align: center;
+  font-size: 35px;
+  padding: 15px;
+
+}
