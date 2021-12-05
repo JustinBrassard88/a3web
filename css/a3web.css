@@ -113,6 +113,11 @@ footer {
     padding-left: 60px;
 
   }
+.homeimage{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 #MeetTeam {
   border-radius: 50%;
   display: block;
@@ -263,8 +268,6 @@ font-family: Verdana;
 .buttonplans {
   text-align: center;
   padding-bottom: 20px;
-<<<<<<< HEAD
-=======
 }
 
 .ourteam{
@@ -360,6 +363,8 @@ font-family: Verdana;
   border:black;
   border-style: solid;
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 }
 
 #CSanswer{
@@ -387,4 +392,5 @@ font-family: Verdana;
 
 #softanswer{
   display: none;
+>>>>>>> 39447803fc6fcce231b64acb69f2ae2af7bcf22f
 }
