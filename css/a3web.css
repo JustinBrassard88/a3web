@@ -342,3 +342,19 @@ font-family: Verdana;
   padding: 15px;
 
 }
+
+.buttonFAQ {
+  width:100%;
+  border-radius:0px;
+  border:none;
+  background-color:ivory;
+  color:rgb(3, 131, 3);
+  text-align: left;
+  font-size: 25px;
+  text-indent: 50px;
+}
+.Questions {
+  background-color:ivory;
+  border:black;
+  border-style: solid;
+}
