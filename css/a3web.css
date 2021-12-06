@@ -330,10 +330,19 @@ font-family: Verdana;
     font-size: 25px;
     color: green;
 }
+
+.NamesCU {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+ }
+ 
+
 /* linked in links formatted*/
 .linkedin {
   text-indent: 150px;
   font-size: 20px;
+  padding-bottom: 50px;
 }
 /* starter paragraph on contact us page */
 .starter {
@@ -408,4 +417,26 @@ font-family: Verdana;
 .columnCU {
   flex: 50%;
   padding: 10px;
+}
+
+
+.columninfoCU {
+  flex: 50%;
+  padding: 150px;
+  text-align: center;
+  
+}
+
+.MapandMI{
+  border-style: solid;
+  background-color: ivory;
+  text-align: center;
+  padding-top: 30px;
+  padding-right: 75px;
+
+}
+
+.MapandMoreInfo{
+text-decoration: underline;
+
 }
