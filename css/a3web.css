@@ -392,7 +392,7 @@ font-family: Verdana;
 }
 
 .gallery:hover {
-  border: 1px solid #777;
+  border: 1px solid rgb(3, 121, 3);
 }
 
 .gallery img {
