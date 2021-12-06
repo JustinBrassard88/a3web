@@ -241,7 +241,7 @@ button {
   background-color: ivory;
   text-align: center;
   box-shadow: 5px 6px #888888;
-  padding-bottom:10.5%;
+  padding-bottom:7.5%;
 }
 
 .planstext{
@@ -322,16 +322,12 @@ font-family: Verdana;
   font-size: 35px;
   padding-top: 10px;
   padding-bottom: 10;
-
-
 }
 
 .email {
-
     text-indent: 150px;
     font-size: 25px;
     color: green;
-    
 }
 /* linked in links formatted*/
 .linkedin {
@@ -346,7 +342,6 @@ font-family: Verdana;
   padding: 15px;
 
 }
-
 /* format for button on the FAQ page, includes the whole question */
 .buttonFAQ {
   width:100%;
@@ -367,12 +362,23 @@ font-family: Verdana;
  
   
 }
-
 /* makes default display no the answers be none so it will only appear on click */
 .nodisplay {
   display:none
   
 }
+/*testimonial page adding boxes*/
+.testimonials {
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  text-align: center;
+  box-shadow: 5px 6px #888888;
+}
 
-
+.testtext {
+  color: black;
+  font-size: 18px;
+}
 
