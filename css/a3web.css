@@ -323,8 +323,6 @@ font-family: Verdana;
   text-indent: 90px;
   color: black;
   font-size: 35px;
-  padding-top: 10px;
-  padding-bottom: 10;
 }
 
 .email {
@@ -336,7 +334,6 @@ font-family: Verdana;
 .linkedin {
   text-indent: 150px;
   font-size: 20px;
-  padding-bottom: 10px;
 }
 /* starter paragraph on contact us page */
 .starter {
@@ -402,9 +399,13 @@ font-family: Verdana;
   }
 }
 
-
 .column25 {
   flex: 50%;
   padding: 30px;
   padding-top: 25px;
+}
+
+.columnCU {
+  flex: 50%;
+  padding: 10px;
 }
