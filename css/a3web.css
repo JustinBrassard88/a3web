@@ -8,7 +8,7 @@
   overflow: hidden;
   background-color: #8FBC8F;
 }
-
+/* nav bar on the right of webpage */
 li {
   float: right;
   text-align: right;
@@ -30,20 +30,21 @@ li a:hover {
   background-color: #9b1616;
   background-color: #fff8dc;
 }
-
+/* responsive design */ 
 @media screen and (max-width: 1340px) {
   .navbar li {
     text-align: center;
     float: none;
   }
 }
-
+/* body background a smooth colour that is appealing and not too bright */ 
 body {
   background: #fff8dc;
   font-family: Verdana;
   width: 100%;
 }
 
+/*common footer on everypage, to stand out from the background */
 footer {
   background: rgb(43, 133, 98);
   font-family: Verdana;
@@ -100,7 +101,7 @@ footer {
     color: #2E8B57;
     padding: 25px;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
 
 .Statement {
@@ -108,7 +109,7 @@ footer {
     color: darkgreen;
     padding-top: 25x;
     text-align: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
   
 #MeetTeam {
