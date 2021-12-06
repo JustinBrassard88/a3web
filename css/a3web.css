@@ -246,7 +246,6 @@ button {
 .planstext{
 color: black;
 font-size: 18px;
-
 }
 
 .plansheading {
@@ -408,7 +407,6 @@ font-family: Verdana;
 } */
 
 .media {
-  margin: 70px;
   padding: 0 6px;
   width: 25%;
   float:left;
