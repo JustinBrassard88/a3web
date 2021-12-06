@@ -107,8 +107,8 @@ footer {
     padding-top: 25x;
     padding-bottom: 100px;
     padding-left: 60px;
-
   }
+  
 #MeetTeam {
   border-radius: 50%;
   display: block;
@@ -119,17 +119,6 @@ footer {
   border:solid;
   border-color: black;
 }
-
-@media screen and (max-width: 600px) {
-  #MeetTeam {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 50%;
-  }
-}
-
 
 .Teamhead{
   font-size: 25px;
@@ -149,12 +138,22 @@ footer {
 
 .row {
   display:flex;
-
 }
 .column {
   flex: 50%;
   padding: 100px;
   padding-bottom: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .row {
+    display:flex;
+  }
+  .column {
+    flex: 50%;
+    padding: 100px;
+    padding-bottom: 25px;
+  }
 }
 
 h2{
