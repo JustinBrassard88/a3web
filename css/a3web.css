@@ -323,8 +323,6 @@ font-family: Verdana;
   text-indent: 90px;
   color: black;
   font-size: 35px;
-  padding-top: 10px;
-  padding-bottom: 10;
 }
 
 .email {
@@ -336,7 +334,6 @@ font-family: Verdana;
 .linkedin {
   text-indent: 150px;
   font-size: 20px;
-  padding-bottom: 10px;
 }
 /* starter paragraph on contact us page */
 .starter {
@@ -387,58 +384,28 @@ font-family: Verdana;
   font-style: italic;
 }
 
-/* image gallery on home page */ 
-.gallery {
-  border: 1px solid rgb(0, 0, 0);
-}
-/* hover to show a different colour and can click the image to make it bigger */ 
-.gallery:hover {
-  border: 1px solid rgb(3, 121, 3);
-}
 
-.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-.gallerytext {
-  padding: 15px;
-  text-align: center;
-  color: darkgreen;
-}
-
-* {
-  box-sizing: border-box;
-} 
-
-.media {
-  padding: 0 6px;
-  width: 25%;
-  float:left;
-  box-sizing: border-box;
-}
 /* allows media screen usage */
 @media screen and (max-width: 700px) {
-  .media {
+  .column25 {
     width: 50%;
     margin: 6px 0;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .media {
+  .column25 {
     width: 100%;
   }
 }
 
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
+.column25 {
+  flex: 50%;
+  padding: 30px;
+  padding-top: 25px;
 }
 
-.locationOfCompany{
-  float: right;
-  margin: 25px;
-  position: relative;
+.columnCU {
+  flex: 50%;
+  padding: 10px;
 }
