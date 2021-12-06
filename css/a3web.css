@@ -100,6 +100,7 @@ footer {
     color: #2E8B57;
     padding: 25px;
     text-align: center;
+    padding-bottom: 10px;
   }
 
 .Statement {
@@ -107,6 +108,7 @@ footer {
     color: darkgreen;
     padding-top: 25x;
     text-align: center;
+    padding-bottom: 10px;
   }
   
 #MeetTeam {
