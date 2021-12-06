@@ -358,8 +358,6 @@ font-family: Verdana;
   border-style: solid;
   border-width: 1px;
   padding: 10px;
- 
-  
 }
 /* makes default display no the answers be none so it will only appear on click */
 .nodisplay {
@@ -405,11 +403,12 @@ font-family: Verdana;
   color: darkgreen;
 }
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 .media {
+  margin: 70px;
   padding: 0 6px;
   float: left;
   width: 24.99999%;
