@@ -163,7 +163,10 @@ h2{
   padding: 12px;
   text-align: center;
 }
-
+#homepageimage{
+  display: block;
+  object-position: center;
+}
 p{
   font-size: 20px;
   color: rgb(3, 131, 3);
@@ -315,10 +318,10 @@ font-family: Verdana;
 
 .contactinfo {   
   text-indent: 90px;
-  color: darkgreen;
-  font-size: 23px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  color: black;
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 10;
 
 
 }
@@ -326,14 +329,14 @@ font-family: Verdana;
 .email {
 
     text-indent: 150px;
-    font-size: 20px;
+    font-size: 25px;
     color: green;
     
 }
 /* linked in links formatted*/
 .linkedin {
   text-indent: 150px;
-  font-size: 18px;
+  font-size: 20px;
   padding-bottom: 10px;
 }
 /* starter paragraph on contact us page */
