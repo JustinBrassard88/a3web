@@ -387,43 +387,17 @@ font-family: Verdana;
   font-style: italic;
 }
 
-/* image gallery on home page */ 
-.gallery {
-  border: 1px solid rgb(0, 0, 0);
-  
-}
-/* hover to show a different colour and can click the image to make it bigger */ 
-.gallery:hover {
-  border: 1px solid rgb(3, 121, 3);
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-  
-}
-
-.gallerytext {
-  padding: 15px;
-  text-align: center;
-  color: darkgreen;
-}
-
-* {
-  box-sizing: border-box;
-} 
-
 
 /* allows media screen usage */
 @media screen and (max-width: 700px) {
-  .gallery {
+  .column25 {
     width: 50%;
     margin: 6px 0;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .gallery {
+  .column25 {
     width: 100%;
   }
 }
@@ -436,6 +410,7 @@ font-family: Verdana;
 
 .column25 {
   flex: 50%;
-  padding: 25px;
+  padding-left: 217px;
+  padding-top: 25px;
 
 }
