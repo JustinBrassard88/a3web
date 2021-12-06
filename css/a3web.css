@@ -162,7 +162,10 @@ h2{
   padding: 12px;
   text-align: center;
 }
-
+#homepageimage{
+  display: block;
+  object-position: center;
+}
 p{
   font-size: 20px;
   color: rgb(3, 131, 3);
@@ -237,7 +240,7 @@ button {
   background-color: ivory;
   text-align: center;
   box-shadow: 5px 6px #888888;
-  padding-bottom:10.5%;
+  padding-bottom:7.5%;
 }
 
 .planstext{
@@ -303,7 +306,6 @@ font-family: Verdana;
   }
 
 .FAQtext {
-  text-indent: 90px;
   color: rgb(3, 131, 3);
   font-size: 20px;
 }
@@ -315,25 +317,21 @@ font-family: Verdana;
 
 .contactinfo {   
   text-indent: 90px;
-  color: darkgreen;
-  font-size: 23px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-
-
+  color: black;
+  font-size: 35px;
+  padding-top: 10px;
+  padding-bottom: 10;
 }
 
 .email {
-
     text-indent: 150px;
-    font-size: 20px;
+    font-size: 25px;
     color: green;
-    
 }
 /* linked in links formatted*/
 .linkedin {
   text-indent: 150px;
-  font-size: 18px;
+  font-size: 20px;
   padding-bottom: 10px;
 }
 /* starter paragraph on contact us page */
@@ -343,17 +341,15 @@ font-family: Verdana;
   padding: 15px;
 
 }
-
 /* format for button on the FAQ page, includes the whole question */
 .buttonFAQ {
   width:100%;
   border-radius:0px;
   border:none;
   background-color:ivory;
-  color:rgb(3, 131, 3);
+  color:black;
   text-align: left;
   font-size: 23px;
-  text-indent: 50px;
   font-weight: bold;
 }
 .Questions {
@@ -365,10 +361,75 @@ font-family: Verdana;
  
   
 }
-
 /* makes default display no the answers be none so it will only appear on click */
 .nodisplay {
   display:none
+  
+}
+/*testimonial page adding boxes*/
+.testimonials {
+  padding: 20px;
+  border-style: solid;
+  border-color: black;
+  background-color: ivory;
+  text-align: center;
+  box-shadow: 5px 6px #888888;
+}
+
+.testtext {
+  color: darkgreen;
+  font-size: 18px;
+}
+
+.personsname {
+  font-style: italic;
 }
 
 
+.gallery {
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.gallery:hover {
+  border: 1px solid rgb(3, 121, 3);
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.gallerytext {
+  padding: 15px;
+  text-align: center;
+  color: darkgreen;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.media {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .media {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .media {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
