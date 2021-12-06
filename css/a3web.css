@@ -410,7 +410,6 @@ font-family: Verdana;
 
 .column25 {
   flex: 50%;
-  padding-left: 217px;
+  padding: 50px;
   padding-top: 25px;
-
 }
