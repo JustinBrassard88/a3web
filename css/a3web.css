@@ -378,7 +378,10 @@ font-family: Verdana;
 }
 
 .testtext {
-  color: black;
+  color: darkgreen;
   font-size: 18px;
 }
 
+.personsname {
+  font-style: italic;
+}
