@@ -99,14 +99,14 @@ footer {
     font-style: italic;
     color: #2E8B57;
     padding: 25px;
+    text-align: center;
   }
 
 .Statement {
     font-size: 25px;
     color: darkgreen;
     padding-top: 25x;
-    padding-bottom: 100px;
-    padding-left: 60px;
+    text-align: center;
   }
   
 #MeetTeam {
@@ -403,9 +403,9 @@ font-family: Verdana;
   color: darkgreen;
 }
 
-/* * {
+* {
   box-sizing: border-box;
-} */
+} 
 
 .media {
   margin: 70px;
@@ -415,14 +415,14 @@ font-family: Verdana;
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .media {
     width: 50%;
     margin: 6px 0;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .media {
     width: 100%;
   }
