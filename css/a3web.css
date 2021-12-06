@@ -13,7 +13,7 @@ li {
   float: right;
   text-align: right;
 }
-
+/*nav bar horizontal at full screen */
 li a {
   display: block;
   color: #0ba813;
@@ -30,7 +30,7 @@ li a:hover {
   background-color: #9b1616;
   background-color: #fff8dc;
 }
-/* responsive design */ 
+/* responsive design, nav bar becomes vertical */ 
 @media screen and (max-width: 1340px) {
   .navbar li {
     text-align: center;
@@ -68,7 +68,7 @@ footer {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+/*logo designed by the group, to match theme of website */ 
 .logo{ 
   position:absolute;
   top: 13px;
@@ -81,7 +81,7 @@ footer {
     color: white;
     max-width: 100%
   }
-    
+ /* website title in the center of images on each page */   
 .Centered {
     position: absolute;
     top: 50%;
@@ -94,7 +94,7 @@ footer {
     width: 100%;
     height: auto;
   }
-
+/* quote and statement on home page */
 .Quote {
     font-size: 25px;
     font-style: italic;
@@ -111,7 +111,8 @@ footer {
     text-align: center;
     padding-bottom: 20px;
   }
-  
+/* meet the team page with rounded images, and text on the right */
+/* alternating image design to try and take up some white space in the background */  
 #MeetTeam {
   border-radius: 50%;
   display: block;
@@ -147,7 +148,7 @@ footer {
   padding: 100px;
   padding-bottom: 25px;
 }
-
+/*mobile phone usage*/ 
 @media screen and (max-width: 600px) {
   .row {
     display:flex;
@@ -185,7 +186,7 @@ p{
   display: none;
   
 }
-
+/* adding buttons to page including java script */ 
 button {
   background-color: rgb(3, 131, 3);
   border-color:lightslategray;
@@ -206,6 +207,7 @@ button {
   padding-top: 50px;
 
 }
+/* adding boxes around plans and adding "clickable" buttons to show prices */
 .mapbasicplan {
   padding: 20px;
   border-style: solid;
@@ -245,7 +247,7 @@ button {
   box-shadow: 5px 6px #888888;
   padding-bottom:7.5%;
 }
-
+/*different plans but have the same text font/heading for flow */
 .planstext{
 color: black;
 font-size: 18px;
@@ -311,7 +313,7 @@ font-family: Verdana;
   color: rgb(3, 131, 3);
   font-size: 20px;
 }
-
+/* adding a drop down style message to show answers to FAQ questions */ 
 .answers {
   text-indent: 150px;
   font-size: 18px;
@@ -385,11 +387,11 @@ font-family: Verdana;
   font-style: italic;
 }
 
-
+/* image gallery on home page */ 
 .gallery {
   border: 1px solid rgb(0, 0, 0);
 }
-
+/* hover to show a different colour and can click the image to make it bigger */ 
 .gallery:hover {
   border: 1px solid rgb(3, 121, 3);
 }
@@ -415,7 +417,7 @@ font-family: Verdana;
   float:left;
   box-sizing: border-box;
 }
-
+/* allows media screen usage */
 @media screen and (max-width: 700px) {
   .media {
     width: 50%;
