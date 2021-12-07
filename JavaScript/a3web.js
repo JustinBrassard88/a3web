@@ -1,7 +1,6 @@
 
 // Used to turn maps on and off for the previous work page
-function imageOn(id,img){
-  document.getElementById(id).src= img
+function imageOn(id){
   document.getElementById(id).style.display = 'block';
 }
 
