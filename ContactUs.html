@@ -14,7 +14,7 @@
 <!-- Displays logo on web tab -->
 <link rel="icon" href="Images/LOGO06.png">
 <!-- Mobile device compatibility -->
-<meta name="viewport" content="" width="device-width", initial-scale="1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
@@ -22,64 +22,60 @@
 <body>
 
 <!-- NAV bar for each page. Ideology from https://www.w3schools.com/css/css_navbar.asp -->
-    <ul class="navbar"> 
-    <div class ="logo">
-      <li><img src="Images/LOGO06.png"/> </li> 
-    </div>
-      <li><a href="Testimonials.html">Testimonials</a>
-      <li><a href="FAQ.html">FAQ</a>
-      <li><a href="PlansandExpenses.html">Plans and Expenses</a>
-      <li><a href="LearnmoreaboutGIS.html">Learn More</a>
-      <li><a href="Previouswork.html">Previous Work</a>
-      <li><a href="ContactUs.html">Contact Us</a>
-      <li><a href="MeetTheTeam.html">Meet The Team</a>
-      <li><a href="index.html">Home Page</a>
+    <ul class="navbar" id="ourNavbar"> 
+        <li><img class= "logo" src="Images/LOGO06.png" alt= "logo" /> </li> 
+        <li><a href="Testimonials.html">Testimonials</a>
+        <li><a href="FAQ.html">FAQ</a>
+        <li><a href="PlansandExpenses.html">Plans and Expenses</a>
+        <li><a href="LearnmoreaboutGIS.html">Learn More</a>
+        <li><a href="Previouswork.html">Previous Work</a>
+        <li><a href="ContactUs.html">Contact Us</a>
+        <li><a href="MeetTheTeam.html">Meet The Team</a>
+        <li><a href="index.html">Home Page</a>
     </ul>
 
 <!-- Header Page Title -->
 <!--Image acquired on December 3 2021 from https://unsplash.com/ -->
+<!--Ideology for Image with overlaying text from https://pavenum.com/en/blog/images-and-text-overlays-in-html-css/ -->
 <div class ="website_title">
-    <img src="Images/Contactus_HeadingImage.jpg" alt="Contact Us DEM" Class="responsive" />
-<div class ="Centered"> Contact Us </div>
+    <img src="Images/Contactus_HeadingImage.jpg" alt="Contact Us DEM" class="responsive" />
+    <div class ="Centered"> Contact Us </div>
 </div>
 
 <!--starter introducing how to contact us and to follow us on linked in -->
-<div class= "starter"> <p> We are ready to help you! We would love to hear from you, please reachout with all questions, comments and concerns.</p>
-<p> Contact our office directly by email info@TheCollectiveSolution.com, or call 613-961-3517.</p> 
-<p> Or contact us individually and follow on us LinkedIn!</p></div>
+<div class= "starter"> 
+    <p> We are ready to help you! We would love to hear from you, please reachout with all questions, comments and concerns.</p>
+    <p> Contact our office directly by email info@TheCollectiveSolution.com, or call 613-961-3517.</p> 
+    <p> Or contact us individually and follow on us LinkedIn!</p>
+</div>
 
 
 <!--Contact info to include name, email and linked in links-->
 <!--Links directly to individual linkedin profiles-->
-<!-- Links design to go with website theme/design, with a colour for link, visited, and hover-->
+<!--Links design to go with website theme/design, with a colour for link, visited, and hover-->
 <div class= "contactinfo">
-    
     <div class = 'row'>
-
-    <div class="columnCU">
+        <div class="columnCU">
             <p class= "NamesCU">Abby Leavens </p> <p class= "email">abby.leavens@flemingcollege.ca</p>
-            <div class= "linkedin"><a href= "https://www.linkedin.com/in/abigail%2Dleavens/"class="links">LinkedIn</a>
-            </div>
+            <div class= "linkedin"><a href= "https://www.linkedin.com/in/abigail%2Dleavens/" class="links">LinkedIn</a></div>
+
+            <p class= "NamesCU">Justin Brassard </p> <p class= "email">justin.brassard@flemingcollege.ca</p>
+            <div class= "linkedin"><a href = "https://www.linkedin.com/in/justinbrassardgis/" class="links" >LinkedIn</a></div>
 
 
-    <p class= "NamesCU">Justin Brassard </p> <p class= "email">justin.brassard@flemingcollege.ca</p>
-    <div class= "linkedin"><a href = "https://www.linkedin.com/in/justinbrassardgis/"class="links" >LinkedIn</a></div>
-
-
-    <p class= "NamesCU">Danielle Brazeau</p> <p class= "email">danielle.brazeau@flemingcollege.ca</p>
-    <div class= "linkedin"><a href="https://www.linkedin.com/in/danielle%2Dbrazeau%2D553546158/" class="links">LinkedIn</a></div>
+            <p class= "NamesCU">Danielle Brazeau</p> <p class= "email">danielle.brazeau@flemingcollege.ca</p>
+            <div class= "linkedin"><a href="https://www.linkedin.com/in/danielle%2Dbrazeau%2D553546158/" class="links">LinkedIn</a></div>
     
   
-    <p class= "NamesCU">James Kwasnicki</p> <p class= "email">james.kwasnicki@flemingcollege.ca</p>
-    <div class= "linkedin"><a href= "https://www.linkedin.com/in/james%2Dkwasnicki%2D481a20221/" class="links">LinkedIn</a></div>     
+            <p class= "NamesCU">James Kwasnicki</p> <p class= "email">james.kwasnicki@flemingcollege.ca</p>
+            <div class= "linkedin"><a href= "https://www.linkedin.com/in/james%2Dkwasnicki%2D481a20221/" class="links">LinkedIn</a></div>     
 
 
-    <p class= "NamesCU"> Ali Mokheamer</p> <p class= "email">ali.mokheamer@flemingcollege.ca</p>
-    <div class= "linkedin"><a href="https://ca.linkedin.com/in/ali%2Dmokheamer"class="links" >LinkedIn</a></div>
-    </div>
-    
+            <p class= "NamesCU"> Ali Mokheamer</p> <p class= "email">ali.mokheamer@flemingcollege.ca</p>
+            <div class= "linkedin"><a href="https://ca.linkedin.com/in/ali%2Dmokheamer" class="links" >LinkedIn</a></div>
+        </div>
 
-    
+<!--Column created to create a box to keep the Google Static Map and More contact us information. Ideology from Assignment 1 Creating a Static Map for GEOM 101--> 
     <div class="columninfoCU">
         <div class= "MapandMI">
         <img src="https://maps.googleapis.com/maps/api/staticmap?center=43.7181557%2C-79.5181399&zoom=11&size=600x400&maptype=roadmap&markers=color:green%7Clabel:S%7C43.7719748,-79.4138459&key=AIzaSyBUxvIhcqHLpBlOoC2oCSaUmN0I66JoaRA" 
@@ -92,22 +88,24 @@
             <p>M2N 6A4</p>
             <p>Fax: +1(416)-338-0889 </p>
     
-</div>
-</div>
-</div>
+        </div>
+    </div>
+    </div>
 </div>
 
-</body>
+
 
 <footer>
-<!-- Footer design Title -->
-    <div class ="Footer_Title_Design">
-        <h3> Contact Us</h3>
-            </div>
+<!-- Footer design including some contact information -->
+<div class ="Footer_Title_Design">
+    <h3> Contact Us</h3>
+</div>
             
 <p class = "Footer_Text"> The Collective Solution</p>
 <p class = "Footer_Text"> info@TheCollectiveSolution.com</p>
 <p class = "Footer_Text"> 613-961-3517</p>
 
 </footer>
+</body>
 </html>
+

@@ -28,7 +28,7 @@ li a {
 /* Change the link colour on hover */
 li a:hover {
   background-color: #9b1616;
-  background-color: #fff8dc;
+  background-color: #9fca9f;
 }
 /* responsive design, nav bar becomes vertical */ 
 @media screen and (max-width: 1340px) {
@@ -107,13 +107,13 @@ footer {
 .Statement {
     font-size: 25px;
     color: darkgreen;
-    padding-top: 25x;
+    padding-top: 20px;
     text-align: center;
     padding-bottom: 20px;
   }
 /* meet the team page with rounded images, and text on the right */
 /* alternating image design to try and take up some white space in the background */  
-#MeetTeam {
+.MeetTeam {
   border-radius: 50%;
   display: block;
   margin-left: auto;
@@ -121,7 +121,20 @@ footer {
   width: 100%;
   border:solid;
   border-color: black;
+
 }
+.MeetTeam2 {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*max-width: 100%;*/
+  min-width: 50%;
+  border:solid;
+  border-color: black;
+  width: 100%;
+}
+
 
 .Teamhead{
   font-size: 25px;
@@ -435,6 +448,7 @@ font-family: Verdana;
   flex: 50%;
   padding: 30px;
   padding-top: 25px;
+ 
 }
 
 .columnCU {
@@ -462,4 +476,8 @@ font-family: Verdana;
 .MapandMoreInfo{
 text-decoration: underline;
 
+}
+
+.gallery {
+  width: 100%
 }

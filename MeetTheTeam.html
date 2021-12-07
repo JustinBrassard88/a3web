@@ -16,39 +16,39 @@
 <!-- Mobile device compatibility -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
- </head>
-
+</head>
 
 <body>
 
 <!-- NAV bar for each page. Ideology from https://www.w3schools.com/css/css_navbar.asp -->
-    <ul class="navbar"> 
-    <div class ="logo">
-      <li><img src="Images/LOGO06.png"/> </li> 
-    </div>
-      <li><a href="Testimonials.html">Testimonials</a>
-      <li><a href="FAQ.html">FAQ</a>
-      <li><a href="PlansandExpenses.html">Plans and Expenses</a>
-      <li><a href="LearnmoreaboutGIS.html">Learn More</a>
-      <li><a href="Previouswork.html">Previous Work</a>
-      <li><a href="ContactUs.html">Contact Us</a>
-      <li><a href="MeetTheTeam.html">Meet The Team</a>
-      <li><a href="index.html">Home Page</a>
+    <ul class="navbar" id="ourNavbar"> 
+        <li><img class= "logo" src="Images/LOGO06.png" alt= "logo" /> </li> 
+        <li><a href="Testimonials.html">Testimonials</a>
+        <li><a href="FAQ.html">FAQ</a>
+        <li><a href="PlansandExpenses.html">Plans and Expenses</a>
+        <li><a href="LearnmoreaboutGIS.html">Learn More</a>
+        <li><a href="Previouswork.html">Previous Work</a>
+        <li><a href="ContactUs.html">Contact Us</a>
+        <li><a href="MeetTheTeam.html">Meet The Team</a>
+        <li><a href="index.html">Home Page</a>
     </ul>
 
 <!-- Header Page Title -->
 <!--Image acquired on December 3 2021 from https://unsplash.com/ -->
+<!--Ideology for Image with overlaying text from https://pavenum.com/en/blog/images-and-text-overlays-in-html-css/ -->
 <div class ="website_title">
     <img src="Images/MTT_HeadingImage.jpg" alt="Meet The Team" Class="responsive" />
-<div class ="Centered"> Meet The Team</div>
-        </div>
+    <div class ="Centered"> Meet The Team</div>
+</div>
       
 <!--Each person's bio plus pictures-->
 <!--Images edited into columns, alternating back and forth to take up blank space -->
+<!--Ideology for columns and rows from https://www.studytonight.com/css-howtos/how-to-align-images-side-by-side-with-css-->
+
 <!--Abby's bio-->
 <div class="row">
     <div class="column">
-        <img id= "MeetTeam" src="Images\Abby_headshot.jpg" alt="Abby Leavens">
+        <img class= "MeetTeam" src="Images/Abby_headshot.jpg" alt="Abby Leavens">
     </div>   
     <div class="column">
         <div class= "Teamhead">Abby Leavens, Hons. B.A. Translation, Ecosystem Management Technologist, GIS Applications Specialist </div> 
@@ -61,6 +61,7 @@
     </div>
 
 </div>
+
 <!--Justins bio-->
 <div class="row">
     <div class="column">
@@ -73,23 +74,25 @@
     </div>
     
     <div class="column">
-        <img id= "MeetTeam" src="Images\Justin_Profile picture.jpeg" alt="Justin Brassard"> </div>
+        <img class= "MeetTeam" src="Images/Justin_Profilepicture.jpeg" alt="Justin Brassard"> 
     </div>
 </div>
+
 <!--Danielle's bio-->
 <div class="row">
     <div class="column">
-    <img id= "MeetTeam" src="Images\Danielle1.jpg" alt="Danielle Brazeau">
+        <img class= "MeetTeam" src="Images/Danielle1.jpg" alt="Danielle Brazeau">
     </div>
     <div class="column">
-    <div class= "Teamhead">Danielle Brazeau, BSc. Specialization in Environmental Science, GIS Applications Specialist</div>
-    <div class= "description">
-        Danielle is an ambitious and dedicated employee, always going above and beyond for clients. 
-        She boasts excellent customer service, field work knowledge, and excels at making and producing maps. 
-        She is highly skilled in Microsoft Suite, ArcGIS Pro, Avenza Publisher, and Catalyst.
-    </div>
+        <div class= "Teamhead">Danielle Brazeau, BSc. Specialization in Environmental Science, GIS Applications Specialist</div>
+        <div class= "description">
+            Danielle is an ambitious and dedicated employee, always going above and beyond for clients. 
+            She boasts excellent customer service, field work knowledge, and excels at making and producing maps. 
+            She is highly skilled in Microsoft Suite, ArcGIS Pro, Avenza Publisher, and Catalyst.
+        </div>
     </div>
 </div>
+
 <!--James's Bio-->
 <div class="row">
     <div class="column">
@@ -97,40 +100,13 @@
         <div class= "description"> James is a talented cartographer and spatial analyst with lived experience in the field.
         He delivers tasks in a timely manner and embraces new challenges with his creativity and commitment to excellence. 
         He is an enthusiastic life-long learner with an uncanny ability to turn ideas into tangible and effective deliverables.
-    </div>
+        </div>
     </div>
     <div class="column">
-        <img id= "MeetTeam" src="Images\James_lookout.jpg" alt="James Kwasnicki">
- 
+        <img class= "MeetTeam2" src="Images/James_lookout.jpg" alt="James Kwasnicki" >
     </div> 
 </div>
 <!--Ali's bio-->
 <div class="row">
     <div class="column">
-        <img id= "MeetTeam" src="Images\Ali.jpg" alt="Ali Mokheamer">
-    </div>
-    <div class="column">
-        <div class= "Teamhead">Ali Mokheamer, Advanced Diploma in Software Engineering, GIS Applications Specialist</div>
-        <div class= "description">Ali has experience with web and mobile application development using a variety of programming
-        languages and frameworks for computer and mobile devices, including Java, Android, MEAN Stack, Python, and C#.
-        He also has experience with designing maps in ArcGIS Pro and Desktop and using CATALYST for remote sensing.
-        </div>
-    </div>
-</div>
-</body>
-
-<!--Meet the teams page was chosen based on images and background information that was provided.-->
-<footer>
-
-<!-- Footer design Title -->
-    <div class ="Footer_Title_Design">
-        <h3> Contact Us</h3>
-            </div>
-            
-<p class = "Footer_Text"> The Collective Solution</p>
-<p class = "Footer_Text"> info@TheCollectiveSolution.com</p>
-<p class = "Footer_Text"> 613-961-3517</p>
-             
-
-</footer>
-</html>
+        <img class= "MeetTeam2" src="Images/Ali.jpg" alt="Ali Mokheamer">
