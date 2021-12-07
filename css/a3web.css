@@ -435,6 +435,7 @@ font-family: Verdana;
 .columninfoCU {
   padding: 150px;
   text-align: center;
+  margin-left: 200px;
 }
 /* formats map on contact us page */
 .MapandMI{
@@ -457,17 +458,32 @@ text-decoration: underline;
 /* reponsive design for contact us page */
 @media screen and (max-width: 1600px) {
   .contactinfo {   
-    text-indent: 90px;
+    text-indent: 0px;
     color: black;
     font-size: 15px;
-    padding: 0px;
   }
+
+  .email {
+    text-indent: 50px;
+    font-size: 25px;
+    color: green;
+  }
+
+  .linkedin {
+    text-indent: 50px;
+    font-size: 20px;
+    padding-bottom: 50px;
+  }
+  
   .columnCU {
     flex: 40%;
     flex-wrap: wrap;
+    
   }
   .columninfoCU {
     padding: 0px;
+    text-indent: 90px;
+    margin-left: 0px;
   }
   .MapandMI{
     flex: 40%;
