@@ -412,6 +412,7 @@ font-family: Verdana;
   flex: 50%;
   padding: 30px;
   padding-top: 25px;
+ 
 }
 
 .columnCU {
@@ -439,4 +440,8 @@ font-family: Verdana;
 .MapandMoreInfo{
 text-decoration: underline;
 
+}
+
+.gallery {
+  width: 100%
 }
