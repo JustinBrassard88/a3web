@@ -36,6 +36,9 @@ li a:hover {
     text-align: center;
     float: none;
   }
+  li .logo{
+    display: none;
+  }
 }
 /* body background a smooth colour that is appealing and not too bright */ 
 body {
