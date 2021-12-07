@@ -376,38 +376,7 @@ font-family: Verdana;
   font-weight: bold;
  }
 
- @media screen and (max-width: 800px) {
-  .contactinfo {   
-    text-indent: 0px;
-    color: black;
-    font-size: 15px;
-    padding: 0px;
-  }
-  .columnCU {
-    flex: 40%;
-    flex-wrap: wrap;
-  }
-  .columninfoCU {
-    flex: 50%;
-    padding: 0px;
-    /*padding: 150px;*/
-    /*text-align: center;*/
-  }
-  .MapandMI{
-    flex: 40%;
-    border-style: solid;
-    background-color: ivory;
-    /*text-align: center;*/
-  }
-  .resizeMap{
-    width: 400px;
-    height: 267px;
-  }
-  .MapandMoreInfo{
-    text-decoration: underline;
-    font-size: 20px;
-    }
-}
+
 
 /* linked in links formatted*/
 .linkedin {
@@ -477,23 +446,23 @@ font-family: Verdana;
   .column25 {
     width: 100%;
   }
+
 }
 
 .column25 {
-  flex: 50%;
   padding: 30px;
   padding-top: 25px;
  
 }
 
 .columnCU {
-  flex: 50%;
+
   padding: 10px;
 }
 
 
 .columninfoCU {
-  flex: 50%;
+ 
   padding: 150px;
   text-align: center;
   
@@ -514,4 +483,37 @@ text-decoration: underline;
 
 .gallery {
   width: 100%
+}
+
+@media screen and (max-width: 1600px) {
+  .contactinfo {   
+    text-indent: 90px;
+    color: black;
+    font-size: 15px;
+    padding: 0px;
+  }
+  .columnCU {
+    flex: 40%;
+    flex-wrap: wrap;
+  }
+  .columninfoCU {
+
+    padding: 0px;
+    /*padding: 150px;*/
+    /*text-align: center;*/
+  }
+  .MapandMI{
+    flex: 40%;
+    border-style: solid;
+    background-color: ivory;
+    /*text-align: center;*/
+  }
+  .resizeMap{
+    width: 400px;
+    height: 267px;
+  }
+  .MapandMoreInfo{
+    text-decoration: underline;
+    font-size: 20px;
+    }
 }
