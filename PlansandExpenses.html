@@ -36,122 +36,112 @@
       <li><a href="index.html">Home Page</a>
     </ul>
 
-<!-- Header Page Title -->
+<!--Header Page Title -->
 <!--Image acquired on December 3 2021 from https://unsplash.com/ -->
 <div class ="website_title">
-    <img src="Images/PlansAndExpenses_HeadingImage.jpg" alt="Windmills" Class="responsive" />
-<div class ="Centered"> Plans and Expenses</div>
-        </div>
+  <img src="Images/PlansAndExpenses_HeadingImage.jpg" alt="Windmills" Class="responsive" />
+    <div class ="Centered"> Plans and Expenses</div>
+</div>
  
-<!-- First plan is a basic map creation estimated cost around $999.99-->
-        <div class="row">
-          <div class="columnPlans">
-            <div class="mapbasicplan">
-              <h3 class="plansheading"> Basic Map Creation / Analysis </h3>
-           
-              <p class="planstext"> This plan consists of the basic map-making creation. Maps are created based on the data you provide for us. 
-                  These can be thematic, topographic, political, and physical maps. The symbology, text and design of the 
-                  maps can be fully specified to accomodate for your business or personal needs. For this plan, we undertake the following processes:
+<!--The first plan is a basic map creation estimated cost around $999.99-->
+<!--For the boxes created ont his page. columns and rows were created-->
+<div class="row">
+  <div class="columnPlans">
+    <div class="mapbasicplan">
+      <h3 class="plansheading"> Basic Map Creation / Analysis </h3>
+      <p class="planstext"> This plan consists of the basic map-making creation. Maps are created based on the data you provide for us. 
+                            These can be thematic, topographic, political, and physical maps. The symbology, text and design of the 
+                            maps can be fully specified to accomodate for your business or personal needs. For this plan, we undertake 
+                            the following processes:</p>
     
-                </p>
-    
-            <p class="planstext">
-                Map Creation <br>
-                Personalized Symbology <br>
-                Labels <br>
-                ArcMap, ArcGIS Pro, Adobe Illustrator <br>
-            </p>
-              <div class="buttonplans">
-                <button class = buttonformplan type="button" onclick="priceOn()">Show Price</button>
-                <p id="price1"></p>
-              </div>
-            
-            </div>
-          </div>
-          <!-- Second plan is the cheapest plan-->
-            <div class="columnPlans">
-              <div class="dataplan">
-                <h3 class="plansheading"> Data Acquisition and Database Creation </h3>
-           
-                <p class="planstext"> This plan consists of acquiring data based on the client specifications and the creation of a custom database.
-                    For this process, our team will use ESRI's Survey123 to organize the data specified by the client. This data will then be imported 
-                    in a Microsoft Access database and an ETL process will be performed to load all required data into one database.
-                    For this plan, we undertake the following processes:</p>
-        
-              <p class="planstext">
-                  Collection of Data <br>
-                  Creation of Database <br>
-                  Database ETL Process <br>
-                 Folders for Database and Data Aqcuired <br>
-              </p>
-                <div class="buttonplans">
-                  <button class = buttonformplan type="button" onclick="priceOn2()">Show Price</button>
-                  <p id="price2"></p>
-                </div>
-            </div>
-        </div>
-        </div>
-        <!--Third plan is the most expensive -->
-        <div class="row">
-          <div class="columnPlans">
-            <div class="mapplan">
-              <h3 class="plansheading"> Map Creation / Analysis and Database Creation </h3>
-           
-              <p class="planstext"> This plan consists of the basic map-making creation along with database creation. A database will be created based
-                  on the data you give us. When all data has been compiled through an ETL process, maps will be created to best represent the trends and patterns you are seeking.
-                  For this plan, we undertake the following processes:</p>
-    
-            <p class="planstext">
-               Collection of Data <br>
-                Creation of Database <br>
-                Database ETL Process <br>
-                Folders for Database and Data Aqcuired <br>
-                Map Creation <br>
-                Personalized Symbology <br>
-                Labels <br>
-                ArcMap, ArcGIS Pro, Adobe Illustrator <br>
-            </p>
-              <div class="buttonplans">
-                <button class = buttonformplan type="button" onclick="priceOn3()">Show Price</button>
-                <p id="price3"></p>
-              </div>
-            </div>
-          </div>
-          <!--Last plan-->
-          <div class="columnPlans">
-            <div class="remoteplan">
-              <h3 class="plansheading"> Remote Sensing Imagery </h3>
-           
-              <p class="planstext"> This plan consists of acquiring satellite imagery from various satellites. This data consistently remains updated 
-                  due to the functionality of LANDSAT satellites. Different processes can be examined within the imagery and many 
-                  corresponding factors within the images can be adjusted to best fit your needs.
-                  For this plan, we undertake the following processes:</p>
-    
-            <p class="planstext">
-              Acquire Satellite Imagery <br>
-              Normalized Difference Vegetation index (NDVI) <br>
-              Image orthorectrification <br>
-              Examine Surface Reflectance and Radiation in the Atmosphere <br>
-              Cloud cover Examination/Correction <br>
-            </p>
-              <div class="buttonplans">
-                <button class = buttonformplan type="button" onclick="priceOn4()">Show Price</button>
-                <p id="price4"></p>
-             </div>
-            </div>
-          </div>
-        </div>  
-<!-- All plans include javascript, prices were made up based on some simple searching of the web-->
+      <p class="planstext"> Map Creation <br>
+                            Personalized Symbology <br>
+                            Labels <br>
+                            ArcMap, ArcGIS Pro, Adobe Illustrator <br> </p>
 
+      <div class="buttonplans">
+          <button class = buttonformplan type="button" onclick="priceOn()">Show Price</button>
+            <p id="price1"></p>
+      </div>
+    </div>
+  </div>
+
+<!--The second plan consists of The Data acquisition and Database creation portin which is the cheapest plan-->
+  <div class="columnPlans">
+    <div class="dataplan">
+      <h3 class="plansheading"> Data Acquisition and Database Creation </h3>
+        <p class="planstext"> This plan consists of acquiring data based on the client specifications and the creation of a custom database.
+                              For this process, our team will use ESRI's Survey123 to organize the data specified by the client. This data will then be imported 
+                              in a Microsoft Access database and an ETL process will be performed to load all required data into one database.
+                              For this plan, we undertake the following processes:</p>
+        
+        <p class="planstext"> Collection of Data <br>
+                              Creation of Database <br>
+                              Database ETL Process <br>
+                              Folders for Database and Data Aqcuired <br> </p>
+      <div class="buttonplans">
+        <button class = buttonformplan type="button" onclick="priceOn2()">Show Price</button>
+        <p id="price2"></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--The third plan consists of Map Creation alogn with Data collection and Database creation. This is the most expensive plan as it combines 2 plans at a reduced rate.-->
+<div class="row">
+  <div class="columnPlans">
+    <div class="mapplan">
+      <h3 class="plansheading"> Map Creation / Analysis and Database Creation </h3>
+        <p class="planstext"> This plan consists of the basic map-making creation along with database creation. A database will be created based
+                              on the data you give us. When all data has been compiled through an ETL process, maps will be created to best represent the trends
+                              and patterns you are seeking. For this plan, we undertake the following processes:</p>
+    
+        <p class="planstext"> Collection of Data <br>
+                              Creation of Database <br>
+                              Database ETL Process <br>
+                              Folders for Database and Data Aqcuired <br>
+                              Map Creation <br>
+                              Personalized Symbology <br>
+                              Labels <br>
+                              ArcMap, ArcGIS Pro, Adobe Illustrator <br> </p>
+        <div class="buttonplans">
+          <button class = buttonformplan type="button" onclick="priceOn3()">Show Price</button>
+          <p id="price3"></p>
+        </div>
+    </div>
+  </div>
+
+  <!--The final plan consists of a stream of work which is completely seperate formt he others (Remote sensing). This price is an avareage price and can cary as services are requested-->
+  <div class="columnPlans">
+    <div class="remoteplan">
+      <h3 class="plansheading"> Remote Sensing Imagery </h3>
+        <p class="planstext"> This plan consists of acquiring satellite imagery from various satellites. This data consistently remains updated 
+                              due to the functionality of LANDSAT satellites. Different processes can be examined within the imagery and many 
+                              corresponding factors within the images can be adjusted to best fit your needs.
+                              For this plan, we undertake the following processes:</p>
+    
+        <p class="planstext"> Acquire Satellite Imagery <br>
+                              Normalized Difference Vegetation index (NDVI) <br>
+                              Image orthorectrification <br>
+                              Examine Surface Reflectance and Radiation in the Atmosphere <br>
+                              Cloud cover Examination/Correction <br> </p>
+      <div class="buttonplans">
+        <button class = buttonformplan type="button" onclick="priceOn4()">Show Price</button>
+        <p id="price4"></p>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<!-- All plans include javascript, prices were made up based on some simple searching of the web-->
 </body>
 
 
 <footer>
-
-<!-- Footer design Title -->
-    <div class ="Footer_Title_Design">
-        <h3> Contact Us</h3>
-            </div>
+<!-- Footer design including some contact information -->
+<div class ="Footer_Title_Design">
+  <h3> Contact Us</h3>
+</div>
             
 <p class = "Footer_Text"> The Collective Solution</p>
 <p class = "Footer_Text"> info@TheCollectiveSolution.com</p>
