@@ -64,13 +64,6 @@ footer {
 }
 
 
-#Contact_Us_Information {
-  display: block;
-  color: #ffffff;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 /*logo designed by the group, to match theme of website */ 
 .logo{ 
   position:absolute;
@@ -93,6 +86,7 @@ footer {
     font-size: 5vw;
   }
 
+  /* makes heading image responsive */
 .responsive {
     width: 100%;
     height: auto;
@@ -121,24 +115,23 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 75%;
   border:solid;
   border-color: black;
 
 }
-.MeetTeam2 {
+
+.MeetTeamJustin {
   border-radius: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  /*max-width: 100%;*/
-  min-width: 50%;
+  width: 60%;
   border:solid;
   border-color: black;
-  width: 100%;
+
 }
-
-
+/* heading for names on meet the team page */
 .Teamhead{
   font-size: 25px;
   color: black;
@@ -155,6 +148,7 @@ footer {
   text-align: center;
 }
 
+/* rows and columns for meet the team page */
 .row {
   display:flex;
 }
@@ -164,7 +158,7 @@ footer {
   padding-bottom: 25px;
 }
 
-/*mobile phone usage*/ 
+/*mobile phone usage for meet the team page*/ 
 @media screen and (max-width: 1000px) {
   .row {
     display: flex;
@@ -185,7 +179,6 @@ footer {
   .description{
     font-size: 15px;
     color: rgb(3, 131, 3);
-    /*padding-right: 10px;*/
     text-align: center;
   }
   #MeetTeam{
@@ -199,16 +192,15 @@ footer {
   }
 }
 
+/* formats all h2 */
 h2{
   font-size: 25px;
   color: black;
   padding: 12px;
   text-align: center;
 }
-#homepageimage{
-  display: block;
-  object-position: center;
-}
+
+/* formats all p */
 p{
   font-size: 20px;
   color: rgb(3, 131, 3);
@@ -239,6 +231,7 @@ button {
   padding-bottom: 20px;
 }
 
+/* columns for the plans and expensives page */
 .columnPlans {
   flex: 50%;
   padding: 3%;
@@ -312,20 +305,7 @@ font-family: Verdana;
   padding-bottom: 20px;
 }
 
-.ourteam{
-  font-size: 25px;
-  color:rgb(3, 131, 3);
-  text-align: center;
 
-
-}
-.whatwedo{
-  font-size: 22px;
-  color: #2E8B57;
-  padding-bottom: 100px;
-  text-align: center;
-
-}
 
   /* unvisited link design help from w3schools */
   a:link.links {
@@ -352,31 +332,24 @@ font-family: Verdana;
   color: rgb(3, 131, 3);
   font-size: 20px;
 }
-/* adding a drop down style message to show answers to FAQ questions */ 
-.answers {
-  text-indent: 150px;
-  font-size: 18px;
-}
-
+/* Contact Us page text (map title) */
 .contactinfo {   
   text-indent: 90px;
   color: black;
   font-size: 35px;
 }
-
+/* Contact Us page text (emails) */
 .email {
     text-indent: 150px;
     font-size: 25px;
     color: green;
 }
-
+/* Contact Us page text (Member name) */
 .NamesCU {
   color: black;
   font-size: 25px;
   font-weight: bold;
  }
-
-
 
 /* linked in links formatted*/
 .linkedin {
@@ -412,7 +385,6 @@ font-family: Verdana;
 /* makes default display no the answers be none so it will only appear on click */
 .nodisplay {
   display:none
-  
 }
 /*testimonial page adding boxes*/
 .testimonials {
@@ -449,25 +421,22 @@ font-family: Verdana;
 
 }
 
+/* columns for the home page */
 .column25 {
   padding: 30px;
   padding-top: 25px;
  
 }
-
+/* columns for contact us page */
 .columnCU {
-
   padding: 10px;
 }
-
-
+/* column for maps on contact us page */
 .columninfoCU {
- 
   padding: 150px;
   text-align: center;
-  
 }
-
+/* formats map on contact us page */
 .MapandMI{
   border-style: solid;
   background-color: ivory;
@@ -476,15 +445,16 @@ font-family: Verdana;
   padding-right: 75px;
 
 }
-
+/* underlines text under map, contact us page */
 .MapandMoreInfo{
 text-decoration: underline;
 }
-
+/* images on home page */
 .gallery {
   width: 100%
 }
 
+/* reponsive design for contact us page */
 @media screen and (max-width: 1600px) {
   .contactinfo {   
     text-indent: 90px;
@@ -497,16 +467,12 @@ text-decoration: underline;
     flex-wrap: wrap;
   }
   .columninfoCU {
-
     padding: 0px;
-    /*padding: 150px;*/
-    /*text-align: center;*/
   }
   .MapandMI{
     flex: 40%;
     border-style: solid;
     background-color: ivory;
-    /*text-align: center;*/
   }
   .resizeMap{
     width: 400px;
