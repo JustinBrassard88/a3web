@@ -36,6 +36,9 @@ li a:hover {
     text-align: center;
     float: none;
   }
+   li .logo{
+    display: none;
+  }
 }
 /* body background a smooth colour that is appealing and not too bright */ 
 body {
@@ -93,6 +96,7 @@ footer {
 .responsive {
     width: 100%;
     height: auto;
+    font-size: 10vw;
   }
 /* quote and statement on home page */
 .Quote {
